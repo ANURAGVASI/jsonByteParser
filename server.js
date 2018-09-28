@@ -5,8 +5,6 @@ const path = require("path");
 
 app.use(cors());
 
-
-
 app.get("/", (req,res,next) => {
     res.sendFile(__dirname+"/1.json");
 })
